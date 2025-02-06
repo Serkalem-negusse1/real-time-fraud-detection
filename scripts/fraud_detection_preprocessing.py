@@ -133,7 +133,7 @@ def plot_transaction_by_class(fraud_df):
     plt.figure(figsize=(12,6))
     sns.boxplot(x='class', y='purchase_value', data=fraud_df, palette='Set2', hue='class', legend=False)
     plt.title("Transaction Amount by Fraud Class")
-    #plt.show()
+    #plt.show() 
 
 def plot_geographical_distribution(fraud_df):
     plt.figure(figsize=(14,7))
