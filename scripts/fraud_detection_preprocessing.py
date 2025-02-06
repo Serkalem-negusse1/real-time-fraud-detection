@@ -27,7 +27,7 @@ def map_ip_to_country(ip):
 
 fraud_df["country"] = fraud_df["ip_address"].apply(map_ip_to_country)
 
-# Save processed data
+# Save processed data 
 fraud_df.to_csv("Processed_Fraud_Data.csv", index=False)
 
 # Exploratory Data Analysis (EDA)
