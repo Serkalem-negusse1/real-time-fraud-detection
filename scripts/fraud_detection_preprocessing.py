@@ -106,7 +106,7 @@ def plot_log_transformed_transaction_value(fraud_df):
     plt.title("Log Transformed Transaction Value Distribution")
     plt.xlabel("Log of Transaction Value")
     plt.ylabel("Frequency")
-    #plt.show()
+    #plt.show() 
 
 def plot_outlier_detection(fraud_df):
     outlier_detector = IsolationForest(contamination=0.05)  # Assume 5% contamination
