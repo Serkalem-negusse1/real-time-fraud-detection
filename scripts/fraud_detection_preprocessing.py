@@ -20,7 +20,7 @@ fraud_df["purchase_day"] = fraud_df["purchase_time"].dt.dayofweek
 # Convert IP addresses to integer format 
 fraud_df["ip_address"] = fraud_df["ip_address"].astype(int)
 
-# Merge Fraud Data with IP Address Mapping
+# Merge Fraud Data with IP Address Mapping 
 def map_ip_to_country(ip):
     match = ip_df[(ip_df["lower_bound_ip_address"] <= ip) & (ip_df["upper_bound_ip_address"] >= ip)]
     return match["country"].values[0] if not match.empty else "Unknown"
