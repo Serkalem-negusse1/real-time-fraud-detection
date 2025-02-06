@@ -122,7 +122,7 @@ def plot_feature_correlation_heatmap(fraud_df):
     corr = numeric_df.corr()  # Calculate correlation for numeric columns only
     sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f')
     plt.title("Feature Correlation Heatmap")
-    #plt.show()
+    #plt.show() 
 
 def plot_pairwise_correlation(fraud_df):
     sns.pairplot(fraud_df[['purchase_value', 'purchase_hour', 'signup_hour', 'log_purchase_value', 'class']], hue='class', palette='Set2')
