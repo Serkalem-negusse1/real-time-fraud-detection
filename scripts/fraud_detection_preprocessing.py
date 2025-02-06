@@ -98,7 +98,7 @@ def plot_transaction_value_distribution(fraud_df):
     plt.title("Transaction Value Distribution")
     plt.xlabel("Transaction Value")
     plt.ylabel("Frequency")
-    #plt.show()
+    #plt.show() 
 
 def plot_log_transformed_transaction_value(fraud_df):
     plt.figure(figsize=(12,6))
