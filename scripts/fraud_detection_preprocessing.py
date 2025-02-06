@@ -114,7 +114,7 @@ def plot_outlier_detection(fraud_df):
     plt.figure(figsize=(12,6))
     sns.boxplot(data=fraud_df[['purchase_value']], palette='Set3')
     plt.title("Outlier Detection in Transaction Amounts")
-    #plt.show()
+    #plt.show() 
 
 def plot_feature_correlation_heatmap(fraud_df):
     numeric_df = fraud_df.select_dtypes(include=[np.number])  # Select only numeric columns
