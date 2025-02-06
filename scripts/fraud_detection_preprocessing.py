@@ -77,10 +77,14 @@ def preprocess_and_save(fraud_data_path, ip_data_path, output_path):
     }
     fraud_df['region'] = fraud_df['country'].map(country_to_region).fillna('Unknown')
 
-    # Save processed data
-    fraud_df.to_csv(output_path, index=False)
+    # Merge with IpAddress Data for Geolocation Analysis
+    merged_df = fraud_df.copy()  # Create a copy of the dataframe with the new 'country' column
 
-    return fraud_df
+    # Save merged data
+    merged_df.to_csv(output_path, index=False)
+
+    return merged_df
+
 
 # --- EDA Functions ---
 
@@ -171,4 +175,5 @@ def check_multicollinearity(fraud_df):
     vif_data["feature"] = X.columns
     vif_data["VIF"] = [variance_inflation_factor(X.values, i) for i in range(X.shape[1])]
     print("\nVariance Inflation Factors (VIF):")
-    print(vif_data) 
+    print(vif_data)
+
