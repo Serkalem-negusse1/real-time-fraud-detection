@@ -161,7 +161,7 @@ def plot_transaction_amount_by_country(fraud_df):
     sns.boxplot(x='country', y='purchase_value', data=fraud_df, palette='Set1', hue='class', legend=False)
     plt.xticks(rotation=90)
     plt.title("Transaction Amount by Country")
-    #plt.show()
+    #plt.show() 
 
 def check_multicollinearity(fraud_df):
     numerical_cols = ['purchase_value', 'signup_hour', 'purchase_hour', 'signup_day', 'purchase_day']
