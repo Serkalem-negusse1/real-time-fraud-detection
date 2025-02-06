@@ -143,7 +143,7 @@ def plot_geographical_distribution(fraud_df):
     plt.xlabel("Region")
     plt.ylabel("Count of Fraudulent Transactions")
     plt.xticks(rotation=45)
-    #plt.show()
+    #plt.show() 
 
 def plot_fraud_trends_over_time(fraud_df):
     plt.figure(figsize=(12,6))
