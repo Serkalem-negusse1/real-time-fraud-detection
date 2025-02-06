@@ -154,7 +154,7 @@ def plot_fraud_trends_over_time(fraud_df):
     plt.xlabel("Date")
     plt.ylabel("Count")
     plt.legend(["Non-Fraud", "Fraud"])
-    #plt.show()
+    #plt.show() 
 
 def plot_transaction_amount_by_country(fraud_df):
     plt.figure(figsize=(12,6))
