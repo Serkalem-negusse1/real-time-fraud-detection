@@ -127,7 +127,7 @@ def plot_feature_correlation_heatmap(fraud_df):
 def plot_pairwise_correlation(fraud_df):
     sns.pairplot(fraud_df[['purchase_value', 'purchase_hour', 'signup_hour', 'log_purchase_value', 'class']], hue='class', palette='Set2')
     plt.title("Pairwise Correlations")
-    #plt.show()
+    #plt.show() 
 
 def plot_transaction_by_class(fraud_df):
     plt.figure(figsize=(12,6))
