@@ -17,7 +17,7 @@ fraud_df["signup_day"] = fraud_df["signup_time"].dt.dayofweek
 fraud_df["purchase_hour"] = fraud_df["purchase_time"].dt.hour
 fraud_df["purchase_day"] = fraud_df["purchase_time"].dt.dayofweek
 
-# Convert IP addresses to integer format
+# Convert IP addresses to integer format 
 fraud_df["ip_address"] = fraud_df["ip_address"].astype(int)
 
 # Merge Fraud Data with IP Address Mapping
