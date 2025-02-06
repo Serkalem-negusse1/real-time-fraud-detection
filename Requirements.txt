@@ -1,0 +1,40 @@
+# Basic libraries
+pandas==1.5.3
+numpy==1.24.2
+matplotlib==3.7.0
+seaborn==0.12.2
+scikit-learn==1.2.0
+scipy==1.10.0
+statsmodels==0.14.0
+
+# Machine Learning and Deep Learning
+xgboost==1.7.6
+lightgbm==3.3.2
+catboost==1.2
+tensorflow==2.12.0
+keras==2.12.0
+pytorch==1.13.1
+scikit-ml==0.5.0
+
+# Model Explainability
+shap==0.41.0
+lime==0.2.0.1
+
+# Flask and Deployment
+flask==2.3.0
+flask-restful==0.3.9
+flask-cors==3.1.1
+gunicorn==20.1.0
+
+# Dashboard (Dash)
+dash==2.10.0
+dash-bootstrap-components==1.3.1
+
+# Docker dependencies
+docker==6.0.1
+
+# Logging (optional, for tracking)
+logging==0.5.1.2
+
+# Miscellaneous
+joblib==1.2.0
