@@ -35,7 +35,7 @@ Fraud detection is essential in e-commerce and banking to prevent financial loss
    - Log parameters, metrics, and model artifacts for better reproducibility.
    - Visualize model performance using MLflow UI.
    
-   ![MLflow Tracking](images/mlflow1.png)
+   ![MLflow Tracking](images/mlflow.png)
 
 5. **Model Deployment**:
    - Create a Flask API for real-time fraud detection.
