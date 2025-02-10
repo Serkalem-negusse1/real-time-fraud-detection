@@ -1,28 +1,102 @@
 # Fraud Detection in E-commerce and Bank Transactions
 
-This project aims to improve the detection of fraudulent activities in both e-commerce and bank credit transactions. By leveraging machine learning models and advanced feature engineering techniques, the goal is to identify and mitigate fraudulent transactions effectively. The solution includes data preprocessing, feature engineering, model building, and deployment through Flask and Dash for real-time monitoring and reporting.
+![Fraud Detection](images/fraud_detection_banner.png)
+
+This project enhances the detection of fraudulent activities in e-commerce and bank credit transactions using machine learning. It involves advanced data preprocessing, feature engineering, model building, and deployment through Flask and Dash for real-time monitoring.
 
 ## Project Overview
 
-Fraud detection is a critical component in e-commerce and banking, where detecting fraudulent transactions prevents financial losses and increases customer trust. This project uses datasets from e-commerce and bank credit card transactions to train models that predict fraudulent activity.
+Fraud detection is essential in e-commerce and banking to prevent financial losses and maintain customer trust. This project leverages machine learning to predict fraudulent activities in transaction datasets.
 
-The project consists of the following key tasks:
+### Key Tasks:
+
 1. **Data Analysis and Preprocessing**:
-   - Handle missing values, data cleaning, and feature engineering.
-   - Merge data for geolocation analysis.
+   - Handle missing values, clean data, and perform feature engineering.
+   - Merge datasets for geolocation-based fraud analysis.
+   - Perform exploratory data analysis (EDA) to identify patterns.
+   
+   ![EDA Example](images/eda_example.png)
+
 2. **Model Building**:
-   - Train multiple models, such as Logistic Regression, Decision Tree, Random Forest, and more.
+   - Train multiple models, including Logistic Regression, Decision Tree, Random Forest, and XGBoost.
+   - Optimize hyperparameters for improved accuracy.
+   
+   ![Model Performance](images/RF-CM.png)
+   ![Model Performance](images/RF-ROC.png)
+
 3. **Model Explainability**:
-   - Use SHAP and LIME for explaining model predictions.
-4. **Model Deployment**:
-   - Create a Flask API to serve the model for real-time predictions.
-   - Dockerize the application for deployment.
-5. **Dashboard Creation**:
-   - Build a Dash app to visualize fraud detection insights.
+   - Utilize SHAP and LIME for interpreting model predictions.
+   - Generate visual explanations for decision-making.
+   
+   ![SHAP Explanation](images/shap_explanation.png)
+
+4. **Model Tracking with MLflow**:
+   - Track model training experiments using MLflow.
+   - Log parameters, metrics, and model artifacts for better reproducibility.
+   - Visualize model performance using MLflow UI.
+   
+   ![MLflow Tracking](images/mlflow1.png)
+
+5. **Model Deployment**:
+   - Create a Flask API for real-time fraud detection.
+   - Deploy the model using Docker.
+   
+   ![Flask API](images/flask_api.png)
+
+6. **Dashboard Creation**:
+   - Develop a Dash web app for fraud detection insights visualization.
+   - Display key fraud detection metrics in real-time.
+   
+   ![Dashboard Example](images/dashboard_example.png)
+
+## Latest Updates
+- **Interim-2 Submission Completed**: Enhancements in model selection, data preprocessing, and explainability.
+- **Improved Documentation**: Added better descriptions for EDA and model interpretability.
+- **Performance Metrics**: Evaluated models with precision-recall analysis.
+- **Enhanced Deployment**: Optimized Flask API response time for real-time detection.
+- **MLflow Integration**: Added model tracking for better experiment reproducibility.
 
 ## Requirements
 
-Before running the project, make sure you have the following dependencies installed:
+Ensure you have the required dependencies installed before running the project:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Serkalem-negusse1/real-time-fraud-detection.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd fraud-detection
+   ```
+3. Run the Flask API:
+   ```bash
+   python app.py
+   ```
+4. Start the Dash dashboard:
+   ```bash
+   python dashboard.py
+   ```
+5. Start MLflow tracking:
+   ```bash
+   mlflow ui --host 127.0.0.1 --port 5000
+   ```
+   Open [MLflow UI](http://127.0.0.1:5000) to view experiment logs.
+
+## Future Improvements
+- Further fine-tuning of model performance.
+- Enhancing real-time fraud detection speed.
+- Expanding the dataset for better generalization.
+- Improving MLflow tracking with automated logging.
+
+## Contributors
+- **Serkalem Negusse** – Machine Learning Engineer
+
+---
+For any issues or contributions, feel free to open a pull request!
+
