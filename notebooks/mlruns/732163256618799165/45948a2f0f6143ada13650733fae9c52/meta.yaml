@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Git_repo/real-time-fraud-detection/notebooks/mlruns/732163256618799165/45948a2f0f6143ada13650733fae9c52/artifacts
+end_time: 1739205049689
+entry_point_name: ''
+experiment_id: '732163256618799165'
+lifecycle_stage: active
+run_id: 45948a2f0f6143ada13650733fae9c52
+run_name: chill-squirrel-654
+run_uuid: 45948a2f0f6143ada13650733fae9c52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739204848236
+status: 3
+tags: []
+user_id: HP

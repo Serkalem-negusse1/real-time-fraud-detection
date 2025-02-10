@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Git_repo/real-time-fraud-detection/notebooks/mlruns/732163256618799165/398679f9f67b462c8ee4881c28473272/artifacts
+end_time: 1739203883292
+entry_point_name: ''
+experiment_id: '732163256618799165'
+lifecycle_stage: active
+run_id: 398679f9f67b462c8ee4881c28473272
+run_name: burly-cow-808
+run_uuid: 398679f9f67b462c8ee4881c28473272
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739203540482
+status: 3
+tags: []
+user_id: HP

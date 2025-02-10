@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Git_repo/real-time-fraud-detection/notebooks/mlruns/732163256618799165/108f61d246f74a2eb3fcebe6debddf73/artifacts
+end_time: 1739205412808
+entry_point_name: ''
+experiment_id: '732163256618799165'
+lifecycle_stage: active
+run_id: 108f61d246f74a2eb3fcebe6debddf73
+run_name: abrasive-finch-115
+run_uuid: 108f61d246f74a2eb3fcebe6debddf73
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739205208974
+status: 3
+tags: []
+user_id: HP

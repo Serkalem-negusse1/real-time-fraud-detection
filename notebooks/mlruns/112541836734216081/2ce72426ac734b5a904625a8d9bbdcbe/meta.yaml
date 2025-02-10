@@ -1,0 +1,15 @@
+artifact_uri: file:///e:/Git_repo/real-time-fraud-detection/notebooks/mlruns/112541836734216081/2ce72426ac734b5a904625a8d9bbdcbe/artifacts
+end_time: 1739205598899
+entry_point_name: ''
+experiment_id: '112541836734216081'
+lifecycle_stage: active
+run_id: 2ce72426ac734b5a904625a8d9bbdcbe
+run_name: sassy-lynx-240
+run_uuid: 2ce72426ac734b5a904625a8d9bbdcbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739205588453
+status: 3
+tags: []
+user_id: HP
