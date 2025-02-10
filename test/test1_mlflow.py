@@ -33,7 +33,7 @@ X_train, X_test, y_train, y_test = load_and_split_data(file_path, target_column)
 
 if X_train is None:
     print("Data loading failed. Exiting.")
-    exit()
+    exit() 
 
 # 3. Define Models (using only RandomForest)
 models = [
