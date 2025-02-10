@@ -15,7 +15,9 @@ Fraud detection is essential in e-commerce and banking to prevent financial loss
    - Merge datasets for geolocation-based fraud analysis.
    - Perform exploratory data analysis (EDA) to identify patterns.
    
-   ![EDA Example](images/eda_example.png)
+   ![EDA Example](images/fraudnonfraud.png)
+   ![EDA Example](images/fraudtrendsOvertime.png)
+   ![EDA Example](images/pairwisecorrelation.png)
 
 2. **Model Building**:
    - Train multiple models, including Logistic Regression, Decision Tree, Random Forest, and XGBoost.
