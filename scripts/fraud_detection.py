@@ -13,7 +13,6 @@ import mlflow
 from imblearn.over_sampling import SMOTE
 
 
-
 # Load datasets
 def load_data(creditcard_path, fraud_path):
     creditcard_df = pd.read_csv(creditcard_path)
@@ -116,7 +115,7 @@ def define_models():
     }
     return models
 
-def main():
+def main(): 
     # Load datasets
     creditcard_df, fraud_df = load_data('E:/Git_repo/real-time-fraud-detection/data/creditcard_preprocessed.csv', 'E:/Git_repo/real-time-fraud-detection/data/Processed_Fraud_Data.csv')
 
