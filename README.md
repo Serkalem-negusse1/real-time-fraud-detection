@@ -1,6 +1,6 @@
 # Fraud Detection in E-commerce and Bank Transactions
 
-![Fraud Detection](images/fraud_detection_banner.png)
+![Fraud Detection](images/fraudalert.png)
 
 This project enhances the detection of fraudulent activities in e-commerce and bank credit transactions using machine learning. It involves advanced data preprocessing, feature engineering, model building, and deployment through Flask and Dash for real-time monitoring.
 
