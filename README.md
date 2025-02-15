@@ -74,7 +74,7 @@ pip install -r requirements.txt
    ```
 2. Navigate to the project directory:
    ```bash
-   cd fraud-detection
+   cd real-time-fraud-detection
    ```
 3. Run the Flask API:
    ```bash
