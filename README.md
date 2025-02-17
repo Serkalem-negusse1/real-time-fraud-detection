@@ -52,6 +52,7 @@ Fraud detection is essential in e-commerce and banking to prevent financial loss
    ![Dashboard Example](images/dashboard_example.png)
 
 ## Latest Updates
+- **Final Submission Completed**
 - **Interim-2 Submission Completed**: Enhancements in model selection, data preprocessing, and explainability.
 - **Improved Documentation**: Added better descriptions for EDA and model interpretability.
 - **Performance Metrics**: Evaluated models with precision-recall analysis.
