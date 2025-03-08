@@ -25,7 +25,6 @@ def load_and_split_data(file_path, target_column): # added target column
         print(f"An error occurred during data loading: {e}")
         return None, None, None, None
 
-
 # Example usage:
 file_path = "E:/Git_repo/real-time-fraud-detection/data/creditcard_preprocessed.csv"  # Replace with your file path
 target_column = "Class"  # Replace with your target column name
