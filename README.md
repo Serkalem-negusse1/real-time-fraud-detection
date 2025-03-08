@@ -45,11 +45,11 @@ Fraud detection is essential in e-commerce and banking to prevent financial loss
    
    ![Flask API](images/flask_api.png)
 
-6. **Dashboard Creation**:
+<!--6. **Dashboard Creation**:
    - Develop a Dash web app for fraud detection insights visualization.
    - Display key fraud detection metrics in real-time.
    
-   ![Dashboard Example](images/dashboard_example.png)
+   ![Dashboard Example](images/dashboard_example.png)-->
 
 ## Latest Updates
 - **Final Submission Completed**
@@ -58,6 +58,7 @@ Fraud detection is essential in e-commerce and banking to prevent financial loss
 - **Performance Metrics**: Evaluated models with precision-recall analysis.
 - **Enhanced Deployment**: Optimized Flask API response time for real-time detection.
 - **MLflow Integration**: Added model tracking for better experiment reproducibility.
+- **Flask API Integration**: Create a User Interface.
 
 ## Requirements
 
