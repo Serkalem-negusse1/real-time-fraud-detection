@@ -1,0 +1,101 @@
+/* General styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    align-content: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    color: #379da9;
+    text-align: center; /* Center the title */
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input, button {
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    color: #379da9;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Horizontal Menu Bar styling */
+.model-menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.model-btn {
+    background-color: #379da9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.model-btn:hover {
+    background-color: #45a049;
+}
+
+.model-btn:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-bottom: 20px; /* Add spacing below the input */
+}
+
+/* Placeholder styling */
+.placeholder {
+    margin-top: 30px;  /* Adds space above the footer */
+    height: 30px;      /* Controls the height of the space */
+    display: block;
+}
+
+/* Footer styling */
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4f4f9;
+    font-size: 16px;
+    color: #379da9;
+}
+
+/* Extra margin space adjustments to reduce unnecessary gaps */
+body > .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
