@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fraud Detection</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="content">
+        <h1>Realtime Fraud Detection using ML and DL Model</h1>
+
+        <!-- Horizontal Menu Bar for Models -->
+        <div class="model-menu">
+            <button class="model-btn" onclick="selectModel('logreg')">Logistic Regression</button>
+            <button class="model-btn" onclick="selectModel('gradient')">Gradient Boosting</button>
+            <button class="model-btn" onclick="selectModel('rf')">Random Forest</button>
+            <button class="model-btn" onclick="selectModel('cnn')">CNN</button>
+            <button class="model-btn" onclick="selectModel('lstm')">LSTM</button>
+            <button class="model-btn" onclick="selectModel('rnn')">RNN</button>
+        </div>
+
+        <br><br>
+
+        <label>Enter Features (comma-separated):</label>
+        <input type="text" id="features" placeholder="e.g., 1.2, 3.4, 5.6, 7.8">
+        <br><br>
+        <button onclick="predict()">Predict</button>
+        <h2 id="result"></h2>
+
+        <!-- Placeholder Section (above the footer) -->
+        <div class="placeholder">
+            <!-- Space created here using CSS -->
+        </div>
+    </div>
+
+    <!-- Footer with Name and Current Year -->
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Serkalem Negusse. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to External JavaScript -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+    <!-- Script to update current year -->
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
