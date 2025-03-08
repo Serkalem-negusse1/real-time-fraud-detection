@@ -15,11 +15,11 @@ models = {
    # "lstm_pickle": pickle.load("models/lstm_model.pkl","rb"),
     #"rnn_pickle": pickle.load("models/rnn_model.pkl","rb"),
 }
-#deep_models = {
-   # "cnn": tf.keras.models.load_model("models/cnn_model.h5"),
-  #  "lstm": tf.keras.models.load_model("models/lstm_model.h5"),
- #   "rnn": tf.keras.models.load_model("models/rnn_model.h5"),
-#}
+deep_models = {
+    "cnn": tf.keras.models.load_model("models/cnn_model.h5"),
+    "lstm": tf.keras.models.load_model("models/lstm_model.h5"),
+    "rnn": tf.keras.models.load_model("models/rnn_model.h5"),
+}
 
 @app.route('/')
 def home():
